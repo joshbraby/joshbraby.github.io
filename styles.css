@@ -1,0 +1,259 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.secondary-color {
+  color: #0399ff;
+  font-weight: bold;
+}
+
+/* Section Styles */
+
+header {
+  width: 100%;
+  background: #000;
+  min-height: 3rem;
+  padding: 0.5rem;
+}
+
+header a {
+  color: #fff;
+}
+
+header a:hover {
+  color: #0399ff;
+  font-weight: bold;
+}
+
+.nav-container {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.main-name {
+  padding: .25rem;
+  width: 10rem;
+  display: inline-block;
+  text-align: left;
+}
+
+.main-name h2 {
+  margin: 0;
+}
+
+.secondary-header-title {
+  margin: 0;
+  padding: 0;
+  font-weight: none;
+}
+
+nav ul {
+  font-size: 1rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.main-container {
+  width: 80%;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  font-size: 1.25rem;
+  min-height: 75vh;
+}
+
+.main-portfolio-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 11rem;
+  font-size: 1.25rem;
+  min-height: 75vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+}
+
+.main-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-container ul li {
+  color: #000;
+}
+
+.location {
+  font-size: 1rem;
+}
+
+.secondary-container {
+  width: 50%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.enter-site {
+  color: #000;
+  margin: 4rem auto;
+  padding: .25rem;
+  width: 30%;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.enter-site:hover {
+  background: #000;
+  color: #0399ff;
+}
+
+.info-container {
+  text-align: left;
+  color: #000;
+  padding-top: 3rem;
+  font-size: 1.05rem;
+}
+
+.info-container p {
+  margin-top: 2rem;
+  color: #0399ff;
+}
+
+.site-container {
+  display: inline-block;
+  width: 29%;
+  margin: 3rem 0 0 3%;
+  border: 1px solid #999;
+}
+
+.site-container h5 {
+  width: 95%;
+  margin: .1rem auto;
+  padding: 0;
+}
+
+.screenshot-container {
+  padding-top: .65rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.site-container p {
+  font-size: .75rem;
+  padding-bottom: 0.5rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.site-container img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  min-height: 2rem;
+  background: #fff;
+  padding: 2rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+footer #footer-date {
+  font-size: .65em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: .25rem;
+}
+
+footer a, 
+.info-container a {
+  color: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
+
+footer a {
+  font-size: 2.5rem;
+}
+
+footer p a {
+  font-size: 1rem;
+}
+
+footer a:hover, 
+.info-container a:hover {
+  color: #0399ff;
+  font-weight: bold;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-container {
+    width: 85%;
+    max-width: 70rem;
+  }
+
+  .main-name {
+    float: left;
+  }
+
+  nav ul {
+    float: right;
+    width: 30%;
+  }
+
+}
+
