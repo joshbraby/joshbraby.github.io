@@ -11,7 +11,8 @@ body {
   background: #fff;
 }
 
-a {
+a,
+.enter-site {
   text-decoration: none;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -91,6 +92,11 @@ nav li {
 
 .secondary-container {
   text-align: center;
+}
+
+#initial-hello,
+#initial-enter {
+  opacity: 0;
 }
 
 h1 {
@@ -309,6 +315,11 @@ footer a:hover,
 
   .site-container p {
     width: 90%;
+  }
+
+  .enter-site {
+    width: 25%;
+    max-width: 9rem;
   }
 
 
